@@ -1,0 +1,12 @@
+# Database file
+database.db
+
+# Python cache
+__pycache__/
+
+# Prepros config (local build tool)
+prepros-6.config
+
+# OS files (optional)
+.DS_Store
+Thumbs.db

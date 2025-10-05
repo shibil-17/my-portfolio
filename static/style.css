@@ -1,0 +1,99 @@
+/* ==============================
+   Login & Register Page Styles
+   ============================== */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-container {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-container h2 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-container input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.auth-container input:focus {
+  outline: none;
+  border-color: #5563DE;
+  box-shadow: 0 0 5px rgba(85,99,222,0.5);
+}
+
+.auth-container button {
+  background-color: #5563DE;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-container button:hover {
+  background-color: #4453c4;
+  transform: translateY(-2px);
+}
+
+.auth-container p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.auth-container a {
+  color: #5563DE;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-container a:hover {
+  text-decoration: underline;
+}
+
+/* Flash messages styling */
+.message {
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 6px;
+}
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
