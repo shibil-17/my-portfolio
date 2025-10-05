@@ -39,4 +39,14 @@ It showcases personal projects, resume, services, contact info, and includes a *
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/shibil-17/my-portfolio.git
+git clone https://github.com/shibil-17/login-portal.git
+```
+2.Open the project in VS Code
+```bash
+cd login-portal
+code .
+```
+3.Run the Flask app
+```bash
+python app.py
+```
