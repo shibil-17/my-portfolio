@@ -1,6 +1,6 @@
 #  Portfolio with Login & Registration Portal
 
-🌐 **Live Demo:** [https://shibil-17.github.io/my-portfolio/](https://shibil-17.github.io/my-portfolio/)
+🌐 **Live Demo:** [https://my-portfolio-55m3.onrender.com](https://my-portfolio-55m3.onrender.com)
 
 ## Project Description
 This is a personal portfolio website built with **HTML, CSS, JavaScript**, and **Flask** for backend functionality.  
@@ -39,11 +39,11 @@ It showcases personal projects, resume, services, contact info, and includes a *
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/shibil-17/login-portal.git
+git clone https://github.com/shibil-17/my-portfolio.git
 ```
 2.Open the project in VS Code
 ```bash
-cd login-portal
+cd my-portfolio
 code .
 ```
 3.Run the Flask app
